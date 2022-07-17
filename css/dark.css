@@ -1,0 +1,267 @@
+:root{
+    --dark: #313131;
+    --light: #FFFFFF;
+}
+body{
+    background: var(--dark);
+}
+.header-nav__bg{
+    background: #0C0C0C;
+}
+.nav2{
+    background: var(--dark);
+}
+.nav2 .container .navbar-brand{
+    background: url(../img/footer-logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav2 .container .navbar-brand img{
+    opacity: 0;
+}
+.search-form{
+    border: 1px solid var(--light);
+}
+.search-input{
+    background: transparent;
+    color: var(--light);
+}
+.search-button{
+    border-left: 1px solid var(--light);
+}
+.header-content__menu{
+    background: var(--dark);
+}
+.header-content__menu::after{
+    background: var(--light);
+}
+.slider-item img{
+    filter: drop-shadow(-10px 5px 3px rgba(0, 0, 0, 0.25));
+}
+.slider-item:first-child img{
+    opacity: 0;
+}
+.slider-item:first-child{
+    background: url(../img/carousel-img1__dark.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.slider-item:nth-child(2) img{
+    opacity: 0;
+}
+.slider-item:nth-child(2){
+    background: url(../img/carousel-img2__dark.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.slider-item:last-child img{
+    opacity: 0;
+}
+.slider-item:last-child{
+    background: url(../img/carousel-img1__dark.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.dropdown-header{
+    color: var(--light);
+}
+.dropdown-style{
+    color: var(--light);
+}
+.dropdown-style:hover{
+    color: grey;
+}
+.slider-item__caption h5{
+    color: var(--light);
+}
+.slider-item__caption a{
+    border: 1px solid var(--light);
+}
+.slider-ind .active{
+    background-color: var(--light);
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: white;
+}
+.button{
+    border: 1px solid var(--light);
+}
+.phone-card h3{
+    color: var(--light);
+}
+.phone-card span{
+    color: var(--light);
+}
+.phone-card a{
+    color: var(--light);
+    background: var(--dark);
+    border: 1px solid var(--light);
+}
+.ps5 h2{
+    color: var(--light);
+}
+.footer{
+    background: var(--dark);
+}
+.input-label label{
+    color: var(--dark);
+}
+.email-form{
+    border: 1px solid var(--dark);
+}
+.email-button{
+    color: var(--dark);
+    background: var(--light);
+    border: 1px solid var(--dark);
+}
+.messangers i{
+    color: var(--dark);
+}
+.footer-links span{
+    color: var(--dark);
+}
+img[src="img/carousel-img2.png"]{
+    src: url(img/carousel-img2-2);
+}
+.bg-white{
+    background: var(--dark) !important;
+}
+.btn-group{
+    background: var(--dark);
+}
+.nav-btn{
+    background: var(--dark);
+    color: var(--light);
+}
+h2.container{
+    color: var(--light);
+}
+.phone-card::after{
+    content: url(../img/heart__dark.svg);
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: none;
+}
+.phone-card:hover::after{
+    display: block;
+}
+.phone-card::before{
+    display: none;
+}
+.phone-card:nth-child(1){
+    background-image: url(../img/phone-card1__dark.png);
+}
+.phone-card:nth-child(2){
+    background-image: url(../img/phone-card2__dark.png);
+}
+.phone-card:nth-child(3){
+    background-image: url(../img/phone-card3__dark.png);
+}
+.phone-card:nth-child(4){
+    background-image: url(../img/phone-card4__dark.png);
+}
+.laptop:nth-child(1){
+    background-image:  url(../img/laptop-card1__dark.png);
+}
+.laptop:nth-child(2){
+    background-image: url(../img/laptop-card2__dark.png);
+}
+.laptop:nth-child(3){
+    background-image: url(../img/laptop-card3__dark.png);
+}
+.laptop:nth-child(4){
+    background-image: url(../img/laptop-card4__dark.png);
+}
+.seller:nth-child(1){
+    background-image: url(../img/seller-card1__dark.png);
+}
+.seller:nth-child(2){
+    background-image: url(../img/seller-card2__dark.png);
+}
+.seller:nth-child(3){
+    background-image: url(../img/seller-card3__dark.png);
+}
+.seller:nth-child(4){
+    background-image: url(../img/seller-card4__dark.png);
+}
+.ps5{
+    position: relative;
+    background-image: url(../img/ps5-bg__dark.png);
+}
+.ps5::before{
+    content: url(../img/ps5-logo__dark.png);
+    position: absolute;
+    left: 31px;
+}
+.ps5-logo{
+    opacity: 0;
+}
+.footer{
+    background: #0C0C0C;
+}
+.input-label label{
+    color: var(--light);
+}
+.messangers i{
+    color: var(--light);
+}
+.footer-links span{
+    color: var(--light);
+}
+.email-button{
+    color: var(--light);
+    background: var(--dark);
+    border: 1px solid var(--light);
+}
+.phone-card:hover{
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5);
+}
+.samsung:nth-child(1){
+    background-image:  url(../img/samsung-card1__dark.png);
+}
+.samsung:nth-child(2){
+    background-image: url(../img/samsung-card2__dark.png);
+}
+.samsung:nth-child(3){
+    background-image: url(../img/samsung-card3__dark.png);
+}
+.samsung:nth-child(4){
+    background-image: url(../img/samsung-card4__dark.png);
+}
+.xiaomi:nth-child(1){
+    background-image: url(../img/xiaomi-card1__dark.png);
+}
+.xiaomi:nth-child(2){
+    background-image: url(../img/xiaomi-card2__dark.png);
+}
+.xiaomi:nth-child(3){
+    background-image: url(../img/xiaomi-card3__dark.png);
+}
+.xiaomi:nth-child(4){
+    background-image: url(../img/xiaomi-card4__dark.png);
+}
+.xbox h2{
+    color: var(--light);
+}
+.xbox p{
+    color: var(--light);
+}
+.apple-tab__content h1{
+    color: var(--light);
+}
+.apple-tab__content span{
+    color: var(--light);
+}
+.apple-tab__content h2{
+    color: var(--light);
+}
+.apple-tab__content ul li{
+    color: var(--light);
+}
+.ps_vr h2{
+    color: var(--light);
+}
+.ps_vr p{
+    color: var(--light);
+}
